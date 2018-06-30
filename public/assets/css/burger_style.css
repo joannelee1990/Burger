@@ -1,0 +1,65 @@
+/* li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  } */
+
+
+.jumbotron {
+    background-color: tomato;
+    text-align: center;
+    width: 1000px;    
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+html {
+    margin: 50px;
+    text-align: center;
+    width: 1000px;
+    background-image: url("../img/burger.jpg");
+    opacity: 0.9;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+button {
+    background-color: beige;
+    color: green;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+
+

@@ -1,0 +1,13 @@
+<li>
+    {{!-- was name --}}
+	{{burger_name}} 
+	{{#if devoured}}
+
+	<button class="change-devoured btn btn-outline-warning" data-id="{{id}}" data-new_eaten="{{devoured}}">
+    DEVOURING TIME  <i class="fas fa-utensils"></i></button>
+
+    {{else}}  
+	
+	<button class="delete-burger btn btn-outline-warning" data-id="{{this.id}}">DELETE  <i class="fas fa-trash-alt"></i></button>   
+     {{/if}}
+</li>
